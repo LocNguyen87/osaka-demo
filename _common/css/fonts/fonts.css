@@ -1,0 +1,215 @@
+
+/* Playfair Display */
+@font-face {
+    font-family:'Playfair Display';
+    src: url('Playfair-Display-Bold.html');
+	src: url('playfair-display/Playfair-Display-Boldd41d.eot?#iefix') format('embedded-opentype'),
+		url('playfair-display/Playfair-Display-Bold.html') format('woff2'),
+		url('playfair-display/Playfair-Display-Bold.woff') format('woff'),
+		url('playfair-display/Playfair-Display-Bold.svg#Playfair-Display-Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-2212;
+}
+
+@font-face {
+    font-family:'Playfair Display';
+    src: url('playfair-display/Playfair-Display-Bold-Italic.eot');
+	src: url('playfair-display/Playfair-Display-Bold-Italicd41d.eot?#iefix') format('embedded-opentype'),
+		url('playfair-display/Playfair-Display-Bold-Italic.html') format('woff2'),
+		url('playfair-display/Playfair-Display-Bold-Italic.woff') format('woff'),
+		url('playfair-display/Playfair-Display-Bold-Italic.svg#Playfair-Display-Bold-Italic') format('svg');
+    font-weight: 700;
+    font-style: italic;
+    font-stretch: normal;
+    unicode-range: U+0020-2212;
+}
+
+@font-face {
+    font-family:'Playfair Display';
+    src: url('playfair-display/Playfair-Display-Italic.eot');
+	src: url('playfair-display/Playfair-Display-Italicd41d.eot?#iefix') format('embedded-opentype'),
+		url('playfair-display/Playfair-Display-Italic.html') format('woff2'),
+		url('playfair-display/Playfair-Display-Italic.woff') format('woff'),
+		url('playfair-display/Playfair-Display-Italic.svg#Playfair-Display-Italic') format('svg');
+    font-weight: 400;
+    font-style: italic;
+    font-stretch: normal;
+    unicode-range: U+0020-2212;
+}
+
+@font-face {
+    font-family:'Playfair Display';
+    src: url('playfair-display/Playfair-Display.eot');
+	src: url('playfair-display/Playfair-Displayd41d.eot?#iefix') format('embedded-opentype'),
+		url('playfair-display/Playfair-Display.html') format('woff2'),
+		url('playfair-display/Playfair-Display.woff') format('woff'),
+		url('playfair-display/Playfair%20Display.html#Playfair Display') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-2212;
+}
+
+
+/* LFT Zeno */
+@font-face {
+    font-family:'LFT Zeno Regular';
+    src: url('lft-zeno/LFT-Zeno-Regular-Regular.eot');
+	src: url('lft-zeno/LFT-Zeno-Regular-Regulard41d.eot?#iefix') format('embedded-opentype'),
+		url('lft-zeno/LFT-Zeno-Regular-Regular.html') format('woff2'),
+		url('lft-zeno/LFT-Zeno-Regular-Regular.woff') format('woff'),
+		url('lft-zeno/LFT-Zeno-Regular-Regular.svg#LFT-Zeno-Regular-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-00FE;
+}
+
+@font-face {
+    font-family:'LFT Zeno Bold';
+    src: url('lft-zeno/LFT-Zeno-Bold-Regular.eot');
+	src: url('lft-zeno/LFT-Zeno-Bold-Regulard41d.eot?#iefix') format('embedded-opentype'),
+		url('lft-zeno/LFT-Zeno-Bold-Regular.html') format('woff2'),
+		url('lft-zeno/LFT-Zeno-Bold-Regular.woff') format('woff'),
+		url('lft-zeno/LFT-Zeno-Bold-Regular.svg#LFT-Zeno-Bold-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-00FE;
+}
+
+@font-face {
+    font-family:'LFT Zeno Light';
+    src: url('lft-zeno/LFT-Zeno-Light-Regular.eot');
+	src: url('lft-zeno/LFT-Zeno-Light-Regulard41d.eot?#iefix') format('embedded-opentype'),
+		url('lft-zeno/LFT-Zeno-Light-Regular.html') format('woff2'),
+		url('lft-zeno/LFT-Zeno-Light-Regular.woff') format('woff'),
+		url('lft-zeno/LFT-Zeno-Light-Regular.svg#LFT-Zeno-Light-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-00FE;
+}
+
+@font-face {
+    font-family:'LFT Zeno Medium';
+    src: url('lft-zeno/LFT-Zeno-Medium-Regular.eot');
+	src: url('lft-zeno/LFT-Zeno-Medium-Regulard41d.eot?#iefix') format('embedded-opentype'),
+		url('lft-zeno/LFT-Zeno-Medium-Regular.html') format('woff2'),
+		url('lft-zeno/LFT-Zeno-Medium-Regular.woff') format('woff'),
+		url('lft-zeno/LFT-Zeno-Medium-Regular.svg#LFT-Zeno-Medium-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-00FE;
+}
+
+
+/* LFT Zeno Condensed */
+@font-face {
+    font-family:'LFT Zeno Condensed Regular';
+    src: url('lft-zeno/condensed/LFT-Zeno-Condensed-Regular-Regular.eot');
+	src: url('lft-zeno/condensed/LFT-Zeno-Condensed-Regular-Regulard41d.eot?#iefix') format('embedded-opentype'),
+		url('lft-zeno/condensed/LFT-Zeno-Condensed-Regular-Regular.html') format('woff2'),
+		url('lft-zeno/condensed/LFT-Zeno-Condensed-Regular-Regular.woff') format('woff'),
+		url('lft-zeno/condensed/LFT-Zeno-Condensed-Regular-Regular.svg#LFT-Zeno-Condensed-Regular Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-00FE;
+}
+
+@font-face {
+    font-family:'LFT Zeno Condensed Medium';
+    src: url('lft-zeno/condensed/LFT-Zeno-Condensed-Medium-Regular.eot');
+	src: url('lft-zeno/condensed/LFT-Zeno-Condensed-Medium-Regulard41d.eot?#iefix') format('embedded-opentype'),
+		url('lft-zeno/condensed/LFT-Zeno-Condensed-Medium-Regular.html') format('woff2'),
+		url('lft-zeno/condensed/LFT-Zeno-Condensed-Medium-Regular.woff') format('woff'),
+		url('lft-zeno/condensed/LFT-Zeno-Condensed-Medium-Regular.svg#LFT-Zeno-Condensed-Medium-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-00FE;
+}
+
+@font-face {
+    font-family:'LFT Zeno Condensed Light';
+    src: url('lft-zeno/condensed/LFT-Zeno-Condensed-Light-Regular.eot');
+	src: url('lft-zeno/condensed/LFT-Zeno-Condensed-Light-Regulard41d.eot?#iefix') format('embedded-opentype'),
+		url('lft-zeno/condensed/LFT-Zeno-Condensed-Light-Regular.html') format('woff2'),
+		url('lft-zeno/condensed/LFT-Zeno-Condensed-Light-Regular.woff') format('woff'),
+		url('lft-zeno/condensed/LFT-Zeno-Condensed-Light-Regular.svg#LFT-Zeno-Condensed-Light-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-00FE;
+}
+
+@font-face {
+    font-family:'LFT Zeno Condensed Bold';
+    src: url('lft-zeno/condensed/LFT-Zeno-Condensed-Bold-Regular.html');
+	src: url('lft-zeno/condensed/LFT-Zeno-Condensed-Bold-Regulard41d.html?#iefix') format('embedded-opentype'),
+		url('lft-zeno/condensed/LFT-Zeno-Condensed-Bold-Regular-2.html') format('woff2'),
+		url('lft-zeno/condensed/LFT-Zeno-Condensed-Bold-Regular.woff') format('woff'),
+		url('lft-zeno/condensed/LFT-Zeno-Condensed-Bold-Regular.svg#LFT-Zeno-Condensed-Bold-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-00FE;
+}
+
+
+/* Neuton */
+@font-face {
+    font-family:'Neuton';
+    src: url('neuton/Neuton-Bold.eot');
+	src: url('neuton/Neuton-Boldd41d.eot?#iefix') format('embedded-opentype'),
+		url('neuton/Neuton-Bold.html') format('woff2'),
+		url('neuton/Neuton-Bold.woff') format('woff'),
+		url('neuton/Neuton-Bold.svg#Neuton-Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-2039;
+}
+
+@font-face {
+    font-family:'Neuton';
+    src: url('neuton/Neuton-Italic.eot');
+	src: url('neuton/Neuton-Italicd41d.eot?#iefix') format('embedded-opentype'),
+		url('neuton/Neuton-Italic.html') format('woff2'),
+		url('neuton/Neuton-Italic.woff') format('woff'),
+		url('neuton/Neuton-Italic.svg#Neuton-Italic') format('svg');
+    font-weight: 400;
+    font-style: italic;
+    font-stretch: normal;
+    unicode-range: U+0020-02DC;
+}
+
+@font-face {
+    font-family:'Neuton';
+    src: url('neuton/Neuton-Regular.eot');
+	src: url('neuton/Neuton-Regulard41d.eot?#iefix') format('embedded-opentype'),
+		url('neuton/Neuton-Regular.html') format('woff2'),
+		url('neuton/Neuton-Regular.woff') format('woff'),
+		url('neuton/Neuton-Regular.svg#Neuton-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-02C6;
+}
+
+@font-face {
+    font-family:'Neuton Light';
+    src: url('neuton/Neuton-Light.eot');
+	src: url('neuton/Neuton-Lightd41d.eot?#iefix') format('embedded-opentype'),
+		url('neuton/Neuton-Light.html') format('woff2'),
+		url('neuton/Neuton-Light.woff') format('woff'),
+		url('neuton/Neuton-Light.svg#Neuton-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-2039;
+}

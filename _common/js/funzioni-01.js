@@ -304,6 +304,8 @@ $(document).ready(function () {
 		fingers:'all'
 	});
 
+
+    $('#food-gallery').lightGallery();
 });
 
 

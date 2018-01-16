@@ -1346,6 +1346,10 @@ a:hover .plus-button:after,
     left: 70px;
 }
 
+.main_text.secondo_blocco p {
+    margin-bottom:10px;
+}
+
 .main_text.terzo_blocco blockquote {
     position: relative;
     z-index: 1;
@@ -1432,7 +1436,7 @@ a:hover .plus-button:after,
 }
 
 .atleta .text {
-    font-family: 'LFT Zeno Regular';
+    font-family: 'Fira Sans', sans-serif;
     float: left;
     width: 50%;
     font-size: 16px;
@@ -1446,23 +1450,24 @@ a:hover .plus-button:after,
 
 .atleta .text h2 {
     color: #232323;
-    font-size: 116px;
-    line-height: 110px;
-    font-family: 'LFT Zeno Condensed Medium';
+    font-size: 50px;
+    line-height: 1.5em;
+    font-family: 'Fira Sans', sans-serif;
     font-weight: normal;
     text-transform: uppercase;
     margin: 75px 0 25px -145px;
 }
 
 .atleta .text h2 span.line {
-    letter-spacing: 8px;
+    letter-spacing: 3px;
+    color: #efefef;
 }
 
 .atleta .text hr {
-    background: -moz-linear-gradient(left, rgba(0, 0, 0, 1) 40%, rgba(0, 0, 0, 0) 100%);
-    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 1) 40%, rgba(0, 0, 0, 0) 100%);
-    background: linear-gradient(to right, rgba(0, 0, 0, 1) 40%, rgba(0, 0, 0, 0) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#858585', endColorstr='#00858585', GradientType=1);
+    background: -moz-linear-gradient(left, rgba(0, 0, 0, 1) 40%, rgba(255, 255, 255, 0) 100%);
+    background: -webkit-linear-gradient(left, rgb(255, 255, 255) 40%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(to right, rgb(255, 255, 255) 40%, rgba(0, 0, 0, 0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#00858585', GradientType=1);
     margin: 0 0 35px 0;
     height: 2px;
 }
@@ -1475,61 +1480,6 @@ a:hover .plus-button:after,
 .atleta .text b {
     font-family: 'LFT Zeno Bold';
     font-weight: normal;
-}
-
-.palmares {
-    background: #151515;
-    color: #FFF;
-    overflow: hidden;
-}
-
-.palmares .wrapper {
-    padding: 60px 0;
-    max-width: 1120px;
-}
-
-.palmares .slider {
-    text-align: center;
-    font-size: 0;
-}
-
-.palmares .slider .slide {
-    vertical-align: top;
-    position: relative;
-    display: table;
-    font-family: 'LFT Zeno Light';
-    font-size: 13px;
-    padding: 20px 15px;
-    width: 25%;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-.palmares .slider .slide .in {
-    display: table-cell;
-    height: 80px;
-    vertical-align: middle;
-}
-
-.palmares .slider .slide b {
-    font-family: 'LFT Zeno Medium';
-    font-weight: normal;
-    font-size: 37px;
-    line-height: 37px;
-    display: block;
-    vertical-align: top;
-    margin: -8px auto 8px;
-}
-
-.palmares .slider .slide .angle.tr,
-.palmares .slider .slide .angle.br {
-    right: -1px;
-}
-
-.palmares .slider .slide:last-child .angle.tr,
-.palmares .slider .slide:last-child .angle.br {
-    right: 0;
 }
 
 /* Template50 ********************************************************************************************* */
@@ -1548,25 +1498,36 @@ a:hover .plus-button:after,
     width: 50%;
 }
 
+.template50 .col_right h3 {
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: normal;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.template50 .col_right p {
+    margin-bottom: 10px;
+}
+
 .template50 .text {
     position: relative;
     margin: 40px 50px;
     padding: 35px;
     color: #FFF;
-    font-size: 15px;
-    line-height: 27px;
-    font-family: 'LFT Zeno Light';
+    font-size: 20px;
+    line-height: 1.5em;
+    font-family: 'Playfair Display', sans-serif;
 }
 
 .template50 .text b {
-    font-family: 'LFT Zeno Medium';
+    font-family: 'Playfair Display', sans-serif;
     font-weight: normal;
 }
 
 .template50 .foto_quadrata {
     position: absolute;
     width: 540px;
-    bottom: 440px;
+    bottom: 600px;
     right: 100px;
     -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
     box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
@@ -1578,7 +1539,7 @@ a:hover .plus-button:after,
 
 .template50.layout1 .img_desktop {
     height: 1170px;
-    background: url(../images/01/intervista/alexis-1.jpg) center no-repeat;
+    background: url(../images/food-big.jpg) center no-repeat;
     background-size: cover;
 }
 
@@ -1591,9 +1552,10 @@ a:hover .plus-button:after,
 }
 
 .template50.layout2 {
-    background: #151515 url(../images/01/intervista/alexis-2.jpg) center no-repeat;
+    background: #151515 url(../images/pagoda-bg.jpg) center no-repeat;
     background-size: cover;
     min-height: 1020px;
+    color:#fff;
 }
 
 .template50.layout3 {
@@ -3629,4 +3591,126 @@ a:hover .plus-button:after,
 }
 
 @media screen and (min-width:0px) and (max-width:320px) {
+}
+
+.food-gallery-wrap > ul {
+    margin-bottom: 0;
+    list-style-type: none;
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+}
+.food-gallery-wrap > ul > li {
+    float: left;
+    margin-bottom: 15px;
+    margin-right: 20px;
+    width: 30%;
+}
+.food-gallery-wrap > ul > li a {
+  border: 3px solid #FFF;
+  border-radius: 3px;
+  display: block;
+  overflow: hidden;
+  position: relative;
+  float: left;
+}
+.food-gallery-wrap > ul > li a > img {
+  -webkit-transition: -webkit-transform 0.15s ease 0s;
+  -moz-transition: -moz-transform 0.15s ease 0s;
+  -o-transition: -o-transform 0.15s ease 0s;
+  transition: transform 0.15s ease 0s;
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  height: 100%;
+  width: 100%;
+  float:left;
+}
+.food-gallery-wrap > ul > li a:hover > img {
+  -webkit-transform: scale3d(1.2, 1.2, 1.2);
+  transform: scale3d(1.2, 1.2, 1.2);
+}
+.food-gallery-wrap > ul > li a:hover .food-gallery-wrap-poster > img {
+  opacity: 1;
+}
+.food-gallery-wrap > ul > li a .food-gallery-wrap-poster {
+  background-color: rgba(0, 0, 0, 0.1);
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  -webkit-transition: background-color 0.15s ease 0s;
+  -o-transition: background-color 0.15s ease 0s;
+  transition: background-color 0.15s ease 0s;
+}
+.food-gallery-wrap > ul > li a .food-gallery-wrap-poster > img {
+  left: 50%;
+  margin-left: -10px;
+  margin-top: -10px;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transition: opacity 0.3s ease 0s;
+  -o-transition: opacity 0.3s ease 0s;
+  transition: opacity 0.3s ease 0s;
+}
+.food-gallery-wrap > ul > li a:hover .food-gallery-wrap-poster {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.food-gallery-wrap .justified-gallery > a > img {
+  -webkit-transition: -webkit-transform 0.15s ease 0s;
+  -moz-transition: -moz-transform 0.15s ease 0s;
+  -o-transition: -o-transform 0.15s ease 0s;
+  transition: transform 0.15s ease 0s;
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  height: 100%;
+  width: 100%;
+}
+.food-gallery-wrap .justified-gallery > a:hover > img {
+  -webkit-transform: scale3d(1.1, 1.1, 1.1);
+  transform: scale3d(1.1, 1.1, 1.1);
+}
+.food-gallery-wrap .justified-gallery > a:hover .food-gallery-wrap-poster > img {
+  opacity: 1;
+}
+.food-gallery-wrap .justified-gallery > a .food-gallery-wrap-poster {
+  background-color: rgba(0, 0, 0, 0.1);
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  -webkit-transition: background-color 0.15s ease 0s;
+  -o-transition: background-color 0.15s ease 0s;
+  transition: background-color 0.15s ease 0s;
+}
+.food-gallery-wrap .justified-gallery > a .food-gallery-wrap-poster > img {
+  left: 50%;
+  margin-left: -10px;
+  margin-top: -10px;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transition: opacity 0.3s ease 0s;
+  -o-transition: opacity 0.3s ease 0s;
+  transition: opacity 0.3s ease 0s;
+}
+.food-gallery-wrap .justified-gallery > a:hover .food-gallery-wrap-poster {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.food-gallery-wrap .video .food-gallery-wrap-poster img {
+  height: 48px;
+  margin-left: -24px;
+  margin-top: -24px;
+  opacity: 0.8;
+  width: 48px;
+}
+.food-gallery-wrap.dark > ul > li a {
+  border: 3px solid #04070a;
+}
+.lg-sub-html p {
+    font-size:15px;
+    line-height: 1.5em;
+    text-align: left
 }

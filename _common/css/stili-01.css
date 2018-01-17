@@ -1019,7 +1019,7 @@ a:hover .plus-button:before, a:hover .plus-button:after, .plus-button:hover:befo
 }
 
 .menu-toggle {
-  width: 40px;
+  width: 250px;
   height: 40px;
   position: absolute;
   cursor: pointer;
@@ -1042,11 +1042,20 @@ a:hover .plus-button:before, a:hover .plus-button:after, .plus-button:hover:befo
   border-radius: 2px;
 }
 
+.menu-toggle .text {
+    float: left;
+    width: 70%;
+    display: block;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
 .hamburger {
   cursor: pointer;
-  position: absolute;
+  position: relative;
   height: 100%;
-  width: 100%;
+  width: 20%;
+  float: left;
 }
 
 .hamburger span {
@@ -1078,8 +1087,9 @@ a:hover .plus-button:before, a:hover .plus-button:after, .plus-button:hover:befo
   cursor: pointer;
   position: absolute;
   height: 100%;
-  width: 100%;
+  width: 20%;
   transform: rotate(45deg);
+  margin-top: 4px;
 }
 
 .cross span {
@@ -1477,6 +1487,7 @@ a:hover .plus-button:before, a:hover .plus-button:after, .plus-button:hover:befo
 .template50 .col_right {
   float: left;
   width: 50%;
+  padding-top: 30px;
 }
 
 .template50 .col_right h3 {
@@ -2210,9 +2221,9 @@ a:hover .plus-button:before, a:hover .plus-button:after, .plus-button:hover:befo
     padding: 35px 0;
   }
   .atleta .text h2 {
-    font-size: 100px;
-    line-height: 85px;
-    margin: 45px 0 25px -146px;
+    font-size: 50px;
+    line-height: 1.5em;
+    margin: 45px 0 25px -96px;
   }
   .atleta .text hr {
     margin-bottom: 30px;
@@ -2833,10 +2844,10 @@ a:hover .plus-button:before, a:hover .plus-button:after, .plus-button:hover:befo
     margin-top: -15px;
   }
   .menu-toggle {
-    width: 30px;
-    height: 30px;
-    margin-top: -15px;
-    right: 14px;
+    width: 250px;
+    height: 40px;
+    margin-top: -20px;
+    right: 10px;
   }
   .menu-toggle .cross span:nth-child(1) {
     width: 2px;
@@ -2860,6 +2871,12 @@ a:hover .plus-button:before, a:hover .plus-button:after, .plus-button:hover:befo
   }
   #share_layer span {
     font-size: 20px;
+  }
+  .hamburger {
+    margin-top:5px;
+  }
+  .cross {
+    margin-top:10px;
   }
   .hamburger span {
     height: 2px;
@@ -3028,7 +3045,7 @@ a:hover .plus-button:before, a:hover .plus-button:after, .plus-button:hover:befo
   }
   .atleta .pic {
     padding: 130px 0 50px;
-    background-image: url(../images/01/intervista/bg-mountains-mob.jpg);
+    background-image: url(../images/bg-mountains-mob.jpg);
   }
   .atleta .chapter {
     width: 100px;
@@ -3412,4 +3429,33 @@ a:hover .plus-button:before, a:hover .plus-button:after, .plus-button:hover:befo
   font-size: 15px;
   line-height: 1.5em;
   text-align: left
+}
+#menu input {
+    padding: 10px 80px;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-family: 'Nunito', sans-serif;
+  font-size:15px;
+  text-align:left;
+}
+::-moz-placeholder { /* Firefox 19+ */
+ font-family: 'Nunito', sans-serif;
+ font-size:15px;
+ text-align:left;
+}
+:-ms-input-placeholder { /* IE 10+ */
+ font-family: 'Nunito', sans-serif;
+ font-size:15px;
+ text-align:left;
+}
+:-moz-placeholder { /* Firefox 18- */
+ font-family: 'Nunito', sans-serif;
+ font-size:15px;
+ text-align:left;
+}
+.form-content {
+  padding-top:100pt;
+}
+.form-content h3.form-title {
+  font-family: 'Nunito', sans-serif;
 }

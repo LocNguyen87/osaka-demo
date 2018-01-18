@@ -744,8 +744,8 @@ a:hover .plus-button:before, a:hover .plus-button:after, .plus-button:hover:befo
 }
 
 .nav .incasodi_mag {
-  width: 200px;
-  height: 38px;
+  width: 364px;
+  height: 69px;
   position: absolute;
   top: 50%;
   left: 70px;
@@ -755,8 +755,8 @@ a:hover .plus-button:before, a:hover .plus-button:after, .plus-button:hover:befo
 }
 
 .nav.fixed .incasodi_mag {
-  height: 24px;
-  margin-top: -12px;
+  height: 44px;
+  margin-top: -22px;
 }
 
 .menu {
@@ -1019,7 +1019,7 @@ a:hover .plus-button:before, a:hover .plus-button:after, .plus-button:hover:befo
 }
 
 .menu-toggle {
-  width: 250px;
+  width: 290px;
   height: 40px;
   position: absolute;
   cursor: pointer;
@@ -1091,7 +1091,7 @@ a:hover .plus-button:before, a:hover .plus-button:after, .plus-button:hover:befo
   height: 100%;
   width: 20%;
   transform: rotate(45deg);
-  margin-top: 4px;
+  margin-top: 8px;
 }
 
 .cross span {
@@ -2859,7 +2859,7 @@ a:hover .plus-button:before, a:hover .plus-button:after, .plus-button:hover:befo
     margin-top: -15px;
   }
   .menu-toggle {
-    width: 250px;
+    width: 290px;
     height: 40px;
     margin-top: -20px;
     right: 10px;

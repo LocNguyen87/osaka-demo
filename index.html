@@ -28,8 +28,7 @@
   <meta name="twitter:site" content="@Osaka" />
   <meta name="twitter:image" content="_common/images/01/share-tw.png" />
   <meta name="twitter:creator" content="@Osaka" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
-
+  <link rel="stylesheet" href="_common/css/bootstrap.min.css">
   <link href="_common/css/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" />
   <link href="_common/lib/fancybox/dist/jquery.fancybox.min.css" rel="stylesheet" />
   <link href="_common/lib/jquery-ui-1.12.1.custom/jquery-ui.min.css" rel="stylesheet" />
@@ -42,7 +41,7 @@
 
 
   <script type="text/javascript">
-    var pageLang = "it";
+    var pageLang = "vi";
   </script>
 
 </head>
@@ -67,7 +66,7 @@
     <!-- Navigation -->
     <div class="nav">
       <div class="incasodi_mag"></div>
-      <div class="menu-toggle">
+      <div class="menu-toggle animated pulse infinite">
         <div class="hamburger"><span></span><span></span><span></span></div>
         <div class="cross"><span></span><span></span></div>
         <div class="text">Tư vấn du lịch Osaka</div>
@@ -78,9 +77,94 @@
         <div class="container">
           <div class="form-content">
             <h3 class="form-title">
-              Hello World !
+              - Đăng ký tư vấn du lịch Osaka -
             </h3>
-
+            <div class="form-wrapper">
+              <form>
+                <div class="form-row">
+                  <div class="form-group col-md-4">
+                    <label for="user_name">Họ tên</label>
+                    <input type="email" class="form-control form-control-lg" id="user_name" placeholder="Họ tên">
+                  </div>
+                  <div class="form-group col-md-4">
+                    <label for="user_email">Email</label>
+                    <input type="email" class="form-control form-control-lg" id="user_email" placeholder="Email">
+                  </div>
+                  <div class="form-group col-md-4">
+                    <label for="user_phone">Điện thoại liên hệ</label>
+                    <input type="text" class="form-control form-control-lg" id="user_phone" placeholder="Điện thoại liên hệ">
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="address">Địa chỉ</label>
+                    <input type="text" class="form-control form-control-lg" id="address" placeholder="Địa chỉ">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="city">Tỉnh / Thành phố</label>
+                    <select class="form-control form-control-lg">
+                      <option value="hcm">TP. Hồ Chí Minh</option>
+                      <option value="hn">Hà Nội</option>
+                      <option value="dng">Đà Nẵng</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-4">
+                    <label for="travel_type">Bạn quan tâm đến loại hình du lịch nào ?</label>
+                    <select class="form-control form-control-lg" name="travel_type">
+                      <option value="hcm">Du lịch tự túc</option>
+                      <option value="hn">Du lịch theo tour</option>
+                    </select>
+                  </div>
+                  <div class="form-group col-md-4">
+                    <label for="nation">Quốc tịch của bạn</label>
+                    <select class="form-control form-control-lg" name="nation">
+                      <option value="vn">Việt Nam</option>
+                      <option value="other">Khác</option>
+                    </select>
+                  </div>
+                  <div class="form-group col-md-4">
+                    <label for="has_visa">Bạn đã có VISA đi Nhật ?</label>
+                    <select class="form-control form-control-lg" name="has_visa">
+                      <option value="yes">Đã có VISA</option>
+                      <option value="no">Chưa có VISA</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-4">
+                    <label for="budget">Giá tiền mong muốn cho chuyến du lịch của bạn</label>
+                    <select class="form-control form-control-lg" name="budget">
+                      <option value="1">Dưới 20.000.000 VNĐ</option>
+                      <option value="2">20.000.000 VNĐ đến 30.000.000 VNĐ</option>
+                      <option value="2">Trên 30.000.000 VNĐ</option>
+                    </select>
+                  </div>
+                  <div class="form-group col-md-4">
+                    <label for="time">Thời gian đi dự kiến</label>
+                    <select class="form-control form-control-lg" name="time">
+                      <option value="this_m">Ngay trong tháng này</option>
+                      <option value="next_m">Tháng sau</option>
+                      <option value="others">Chưa xác định</option>
+                    </select>
+                  </div>
+                  <div class="form-group col-md-4">
+                    <label for="custom_request">Yêu cầu khác</label>
+                    <input type="text" class="form-control form-control-lg" id="custom_request" placeholder="Mô tả ngắn gọn yêu cầu của bạn">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="form-check">
+                    <input class="form-check-input form-control-lg" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                      Tôi đồng ý với các <a data-fancybox="" data-type="iframe" data-src="cookie-policy.html" href="javascript:;">Điều khoản sử dụng thông tin</a> của Song Han Tourist - Kilala Tour Japan
+                    </label>
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-primary btn-lg">Đăng ký tư vấn</button>
+              </form>
+            </div>
           </div>
         </div>
       </div>
@@ -355,13 +439,6 @@
       </div>
     </div>
     <!-- End gallery -->
-
-    <!-- Products -->
-    <div class="products">
-      <img src="_common/images/01/footer/footer.png" class="img_footer desktop wow fadeInUp">
-      <img src="_common/images/01/footer/footer-mob.png" class="img_footer mobile">
-    </div>
-    <!-- End products -->
 
     <!-- Footer -->
     <div class="footer">

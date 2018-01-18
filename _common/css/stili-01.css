@@ -195,7 +195,7 @@ input:-ms-input-placeholder {
   background: #000;
   text-align: center;
   text-transform: uppercase;
-  font-family: 'LFT Zeno Condensed Regular';
+  font-family: 'Nunito', sans-serif;
   letter-spacing: 1px;
   -webkit-transition: background 400ms ease-out;
   -moz-transition: background 400ms ease-out;
@@ -1028,8 +1028,8 @@ a:hover .plus-button:before, a:hover .plus-button:after, .plus-button:hover:befo
   right: 85px;
   -webkit-border-radius: 40px;
   border-radius: 40px;
-  border: 2px solid #000;
   z-index: 3;
+  background: #1c4693;
 }
 
 .menu-toggle * {
@@ -1038,16 +1038,18 @@ a:hover .plus-button:before, a:hover .plus-button:after, .plus-button:hover:befo
 
 .menu-toggle span {
   display: block;
-  background: #000;
+  background: #fff;
   border-radius: 2px;
 }
 
 .menu-toggle .text {
-    float: left;
-    width: 70%;
-    display: block;
-    margin-top: 10px;
-    margin-left: 20px;
+  float: left;
+  width: 70%;
+  display: block;
+  margin-top: 10px;
+  margin-left: 10px;
+  color: #fff;
+  font-size: 15px;
 }
 
 .hamburger {
@@ -1093,9 +1095,10 @@ a:hover .plus-button:before, a:hover .plus-button:after, .plus-button:hover:befo
 }
 
 .cross span {
-  background-color: #000;
+  background-color: #fff;
   -webkit-border-radius: 3px;
   border-radius: 3px;
+
 }
 
 .cross span:nth-child(1) {
@@ -1176,7 +1179,7 @@ a:hover .plus-button:before, a:hover .plus-button:after, .plus-button:hover:befo
   }
 }
 
-.animated {
+.titleAnimation .animated {
   -webkit-animation: slideIn 1s cubic-bezier(.08, .82, .44, 1);
   animation: slideIn 1s cubic-bezier(.08, .82, .44, 1);
 }
@@ -2455,7 +2458,7 @@ a:hover .plus-button:before, a:hover .plus-button:after, .plus-button:hover:befo
     padding: 115px 0 30px;
     float: none;
     width: 100%;
-    background: url(../images/01/intervista/bg-mountains.jpg) center no-repeat;
+    background: url(../images/bg-mountains.jpg) center no-repeat;
     background-size: cover;
   }
   .atleta .pic img {
@@ -2476,9 +2479,13 @@ a:hover .plus-button:before, a:hover .plus-button:after, .plus-button:hover:befo
     box-sizing: border-box;
   }
   .atleta .text h2 {
-    font-size: 90px;
-    line-height: 80px;
+    font-size: 40px;
+    line-height: 1.5em;
     margin: 0 0 25px 0;
+  }
+  .atleta .text h2 span.line {
+    color: #000;
+    letter-spacing: 0px;
   }
   .atleta .chapter {
     z-index: 1;
@@ -2486,6 +2493,14 @@ a:hover .plus-button:before, a:hover .plus-button:after, .plus-button:hover:befo
     width: 110px;
     margin-right: -55px;
     top: 22px;
+  }
+  .atleta .text hr {
+    background: -moz-linear-gradient(left, rgba(0, 0, 0, 1) 40%, rgba(255, 255, 255, 0) 100%);
+    background: -webkit-linear-gradient(left, rgb(0, 0, 0) 40%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(to right, rgb(0, 0, 0) 40%, rgba(0, 0, 0, 0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#00858585', GradientType=1);
+    margin: 0 0 35px 0;
+    height: 2px;
   }
   .palmares .slider .slide {
     width: 22.5%;
@@ -3430,9 +3445,6 @@ a:hover .plus-button:before, a:hover .plus-button:after, .plus-button:hover:befo
   line-height: 1.5em;
   text-align: left
 }
-#menu input {
-    padding: 10px 80px;
-}
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   font-family: 'Nunito', sans-serif;
   font-size:15px;
@@ -3458,4 +3470,12 @@ a:hover .plus-button:before, a:hover .plus-button:after, .plus-button:hover:befo
 }
 .form-content h3.form-title {
   font-family: 'Nunito', sans-serif;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 30px;
+}
+.form-check-label {
+    margin-bottom: 0;
+    margin-top: 5px;
+    font-size: 14px;
 }
